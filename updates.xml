@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+
   <channel>
     <title>VRChat Group App</title>
 
+    <!-- 🔹 v1.0.2 (LATEST) -->
     <item>
-      <title>Version 1.0.2</title>
+      <title>Version 1.0.2 – Group Management Foundations</title>
+
+      <sparkle:releaseNotesLink>
+        https://github.com/Alang0991/VrchatgroupApp.clean/releases/tag/v1.0.2
+      </sparkle:releaseNotesLink>
+
+      <enclosure
+        url="https://github.com/Alang0991/VrchatgroupApp.clean/releases/download/v1.0.2/VrchatGroupApp-win64-v1.0.2.zip"
+        sparkle:version="1.0.2"
+        sparkle:os="windows"
+        type="application/octet-stream" />
+    </item>
+
+    <!-- 🔹 v1.0.1 (OLDER, OPTIONAL TO KEEP) -->
+    <item>
+      <title>Version 1.0.1</title>
 
       <enclosure
         url="https://github.com/Alang0991/VrchatgroupApp.clean/releases/download/v1.0.1/VrchatGroupApp-win64-v1.0.1.zip"
-        sparkle:version="1.0.2"
+        sparkle:version="1.0.1"
         sparkle:os="windows"
         type="application/octet-stream" />
     </item>
