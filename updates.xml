@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>VRChat Group App</title>
+
+    <item>
+      <title>Version 1.0.1</title>
+      <sparkle:releaseNotesLink>
+        https://github.com/YOUR_USERNAME/VrchatGroupApp/releases
+      </sparkle:releaseNotesLink>
+
+      <enclosure
+        url="https://github.com/Alang0991/VrchatGroupApp/releases/download/v1.0.1/VrchatGroupApp-win64-v1.0.1.zip"
+        sparkle:version="1.0.1"
+        sparkle:os="windows"
+        type="application/octet-stream" />
+    </item>
+
+  </channel>
+</rss>
